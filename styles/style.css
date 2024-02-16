@@ -176,6 +176,14 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.flex-item{
+  transition: transform 0.3s ease;
+  border-radius: 25px;
+}
+.flex-item:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.2);
+}
 /* subscribe section style */
 .subscribe-container {
   text-align: center;
