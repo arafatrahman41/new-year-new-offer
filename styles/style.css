@@ -1,0 +1,35 @@
+/* shared style */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1480px;
+    width: 70%;
+    margin: auto;
+}
+.primary-title{
+    font-family: "Merriweather", serif; 
+}
+/* banner section style */
+.container{
+    background-image: url('../images/Banner\ Image.png');
+    margin-top: 50px;
+    height: 600px;
+    background-repeat: no-repeat;
+    color: #b3b3b3;
+    text-align: center;
+}
+.banner-content{
+    padding-top: 155px;
+}
+.new-year{
+   font-size: 32px;
+   font-weight: 400;
+   padding-bottom: 25px;
+}
+.party{
+font-size: 72px;
+font-weight: 900;
+}
+
