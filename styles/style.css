@@ -82,52 +82,89 @@ body {
   letter-spacing: 7.04px;
   margin-bottom: 24px;
 }
-.join{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700; 
-    border: 0;
-    background-color: transparent;
-    margin-top: 40px;
+.join {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  background-color: transparent;
+  margin-top: 40px;
 }
-.party-content{
-    width: 60%;
-    margin: auto;
+.party-content {
+  width: 60%;
+  margin: auto;
 }
-.celebration{
-    margin-top: 70px;
+.celebration {
+  margin-top: 70px;
 }
-.party-year{
-    width: 25%;
-    margin: auto;
+.party-year {
+  width: 25%;
+  margin: auto;
 }
 /* invitation section style */
 /* best offer section style */
 /* holiday sale section style */
 /* portfolio section style */
-.portfolio-container{
+.portfolio-container {
   margin-top: 120px;
 }
-.portfolio{
-  color: #F00;
+.portfolio {
+  color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
 }
-.portfolio-title{
+.portfolio-title {
   color: #070211;
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 20px;
 }
-.portfolio-description{
-  color: rgba(7, 2, 17, 0.60);
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
   margin-bottom: 40px;
 }
-.collection{
-  display: grid; 
-  grid-template-columns:repeat(3, 1fr); 
+.collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+/* subscribe section style */
+.subscribe-container {
+  text-align: center;
+  margin-top: 120px;
+}
+.subscribe-image {
+  margin-bottom: 35px;
+}
+.subscribe-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 40px;
+}
+.fill-up {
+  padding: 15px 150px 15px 30px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.fill-up-button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
 }
