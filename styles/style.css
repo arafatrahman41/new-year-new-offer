@@ -176,9 +176,39 @@ main {
   margin-bottom: 40px;
 }
 /* holiday sale section style */
+.holiday-sale-container{
+  margin-top: 120px;
+}
+.holiday-sale-content{
+  text-align: center;
+}
+.holiday-sale-title{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-sale{
+  color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+.sale-color{
+  color: #F00;
+}
+.holiday-sale-description{
+  color: rgba(7, 2, 17, 0.60);
+}
+.coustomer{
+  margin-top: 60px;
+  background-image: url('../images/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: 90% 10%;
+}
+
 /* portfolio section style */
 .portfolio-container {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .portfolio {
   color: #f00;
