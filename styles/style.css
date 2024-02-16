@@ -1,35 +1,104 @@
 /* shared style */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    max-width: 1480px;
-    width: 70%;
-    margin: auto;
+body {
+  max-width: 1480px;
+  width: 70%;
+  margin: auto;
 }
-.primary-title{
-    font-family: "Merriweather", serif; 
+.primary-title {
+  font-family: "Merriweather", serif;
+}
+.primary-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
 }
 /* banner section style */
-.container{
-    background-image: url('../images/Banner\ Image.png');
-    margin-top: 50px;
-    height: 600px;
-    background-repeat: no-repeat;
-    color: #b3b3b3;
-    text-align: center;
+.container {
+  background-image: url("../images/Banner\ Image.png");
+  margin-top: 50px;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: #b3b3b3;
+  text-align: center;
 }
-.banner-content{
-    padding-top: 155px;
+.banner-content {
+  padding-top: 155px;
 }
-.new-year{
-   font-size: 32px;
-   font-weight: 400;
-   padding-bottom: 25px;
+.new-year {
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 25px;
 }
-.party{
-font-size: 72px;
-font-weight: 900;
+.party {
+  font-size: 72px;
+  font-weight: 900;
 }
-
+/* holiday section styles */
+.holiday-content {
+  text-align: center;
+  margin-top: 120px;
+}
+.holiday-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.holiday-description {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.holiday-category {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+/* party section style */
+.party-container {
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 120px;
+}
+.party-container > div {
+  display: flex;
+  align-items: center;
+}
+.party-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.join{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700; 
+    border: 0;
+    background-color: transparent;
+    margin-top: 40px;
+}
+.party-content{
+    width: 60%;
+    margin: auto;
+}
+.celebration{
+    margin-top: 70px;
+}
+.party-year{
+    width: 25%;
+    margin: auto;
+}
