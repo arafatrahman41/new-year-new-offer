@@ -101,11 +101,11 @@ main {
 }
 .party-year {
   width: 100%;
-max-width: 320px;
-margin: auto;
+  max-width: 320px;
+  margin: auto;
 }
 /* invitation section style */
-.invitation-container{
+.invitation-container {
   text-align: center;
   margin-top: 120px;
 }
@@ -177,32 +177,32 @@ margin: auto;
   margin-bottom: 40px;
 }
 /* holiday sale section style */
-.holiday-sale-container{
+.holiday-sale-container {
   margin-top: 120px;
 }
-.holiday-sale-content{
+.holiday-sale-content {
   text-align: center;
 }
-.holiday-sale-title{
+.holiday-sale-title {
   color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
-.holiday-sale{
+.holiday-sale {
   color: #070211;
-font-size: 48px;
-font-weight: 900;
+  font-size: 48px;
+  font-weight: 900;
 }
-.sale-color{
-  color: #F00;
+.sale-color {
+  color: #f00;
 }
-.holiday-sale-description{
-  color: rgba(7, 2, 17, 0.60);
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.6);
 }
-.coustomer{
+.coustomer {
   margin-top: 60px;
-  background-image: url('../images/Rectangle\ 2.png');
+  background-image: url("../images/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position: 90% 10%;
 }
@@ -236,6 +236,7 @@ font-weight: 900;
 .flex-item {
   transition: transform 0.3s ease;
   border-radius: 25px;
+  cursor: pointer;
 }
 .flex-item:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
